@@ -44,7 +44,7 @@
             display: block;
         }
 
-        /* Main two-column layout */
+        /* MAIN TWO-COLUMN LAYOUT */
         .top-section {
             display: grid;
             grid-template-columns: 1.2fr 1fr;
@@ -76,10 +76,18 @@
 
         /* RIGHT SIDE */
         .profile-content {
-            padding-top: 100px;
+            padding-top: 90px;
         }
 
-        /* PERSONAL SUMMARY */
+        /* RESEARCH HEADING */
+        .summary h2 {
+            margin: 0 0 15px 0;
+            font-size: 24px;
+            font-weight: 600;
+            color: #222222;
+        }
+
+        /* RESEARCH SUMMARY */
         .summary {
             margin: 0 0 25px 0;
             padding: 0;
@@ -180,7 +188,9 @@
             }
 
             .title {
+                margin-bottom: 25px;
                 text-align: center;
+                line-height: 1.5;
             }
 
             .profile-photo {
@@ -201,6 +211,11 @@
             .summary {
                 margin-bottom: 25px;
                 width: 100%;
+            }
+
+            .summary h2 {
+                font-size: 21px;
+                margin-bottom: 12px;
             }
 
             .summary p {
@@ -230,7 +245,7 @@
         <!-- ECU LOGO -->
         <div class="university-logo">
             <img
-                src="ECU-Logo.png"
+                src="ECULogo.png"
                 alt="Edith Cowan University"
             >
         </div>
@@ -238,13 +253,13 @@
 
         <section class="top-section">
 
-            <!-- LEFT: NAME, LOCATION AND PHOTO -->
+            <!-- LEFT: NAME, TITLE AND PHOTO -->
             <div class="profile">
 
                 <h1>Elizabeth Boudaher</h1>
 
                 <div class="title">
-                    WA, Australia
+                    PhD Candidate | Medical &amp; Health Science | WA, Australia
                 </div>
 
                 <img
@@ -256,20 +271,21 @@
             </div>
 
 
-            <!-- RIGHT: SUMMARY AND LINKS -->
+            <!-- RIGHT: RESEARCH AND LINKS -->
             <div class="profile-content">
 
                 <section class="summary">
 
+                    <h2>Research</h2>
+
                     <p>
-                        I’m a PhD candidate in Medical &amp; Health Science,
-                        investigating <em>Clostridioides difficile</em> through
-                        a One Health lens, with a focus on dairy cattle. My
-                        research explores the ecology and epidemiology of
-                        <em>C. difficile</em> across dairy systems, examining
-                        environmental reservoirs and potential transmission
-                        pathways, with particular interest in the role of
-                        dairy calves.
+                        I’m investigating <em>Clostridioides difficile</em>
+                        through a One Health lens. My research explores the
+                        ecology and epidemiology of <em>C. difficile</em>
+                        across dairy systems, examining environmental reservoirs
+                        and potential transmission pathways extending beyond
+                        the farm and into the wider community, with particular
+                        interest in the role of dairy calves.
                     </p>
 
                 </section>
@@ -326,7 +342,7 @@
                             viewBox="0 0 24 24"
                             aria-hidden="true"
                         >
-                            <path d="M7 3h7.2C17.4 3 20 5.3 20 8.4c0 2.4-1.5 4.5-3.8 5.2L20.5 21h-4l-3.8-6.8H11V21H7V3zm4 3v5.2h2.3c1.6 0 2.7 1 2.7-2.6S14.9 6 13.3 6H11z"/>
+                            <path d="M7 3h7.2C17.4 3 20 5.3 20 8.4c0 2.4-1.5 4.5-3.8 5.2L20.5 21h-4l-3.8-6.8H11V21H7V3zm4 3v5.2h2.3c1.6 0 2.7-1 2.7-2.6S14.9 6 13.3 6H11z"/>
                         </svg>
 
                         <span>ResearchGate</span>
