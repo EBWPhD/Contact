@@ -1,1 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="robots" content="noindex, nofollow">
+
+    <title></title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f7f5f2;
+            color: #333333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 40px;
+            background: white;
+            border-radius: 18px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        .top-section {
+            display: grid;
+            grid-template-columns: 1fr 1.3fr;
+            gap: 50px;
+            align-items: start;
+        }
+
+        .profile h1 {
+            margin: 0 0 8px 0;
+            font-size: 36px;
+            font-weight: 600;
+            color: #222222;
+        }
+
+        .title {
+            margin-bottom: 25px;
+            font-size: 17px;
+            color: #666666;
+        }
+
+        .profile-photo {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 12px;
+            display: block;
+        }
+
+        .links {
+            padding-top: 45px;
+        }
+
+        .link-button {
+            display: block;
+            text-decoration: none;
+            color: #333333;
+            background: #f1efec;
+            padding: 16px 20px;
+            margin-bottom: 14px;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: 0.2s ease;
+        }
+
+        .link-button:hover {
+            background: #e4e0db;
+            transform: translateY(-2px);
+        }
+
+        .summary {
+            margin-top: 45px;
+            padding-top: 30px;
+            border-top: 1px solid #e5e2de;
+        }
+
+        .summary h2 {
+            margin-top: 0;
+            font-size: 22px;
+            color: #222222;
+        }
+
+        .summary p {
+            font-size: 16px;
+            line-height: 1.7;
+            color: #555555;
+        }
+
+        @media (max-width: 650px) {
+            .container {
+                margin: 20px;
+                padding: 25px;
+            }
+
+            .top-section {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .profile h1 {
+                font-size: 30px;
+            }
+
+            .profile-photo {
+                max-width: 260px;
+            }
+
+            .links {
+                padding-top: 0;
+            }
+
+            .summary {
+                margin-top: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <section class="top-section">
+
+            <!-- LEFT SIDE -->
+            <div class="profile">
+
+                <h1>Elizabeth Boudaher</h1>
+
+                <div class="title">
+                    WA, Australia
+                </div>
+
+                <img 
+                    src="ProfilePhoto.jpg" 
+                    alt="Elizabeth Boudaher"
+                    class="profile-photo"
+                >
+
+            </div>
+
+
+            <!-- RIGHT SIDE -->
+            <div class="links">
+
+                <a 
+                    href="mailto:e.boudaher@ecu.edu.au"
+                    class="link-button"
+                >
+                    ✉ Email
+                </a>
+
+                <a 
+                    href="https://www.linkedin.com/in/elizabeth-b-98787bba/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="link-button"
+                >
+                    in LinkedIn
+                </a>
+
+                <a 
+                    href="https://orcid.org/0000-0002-7423-3806"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="link-button"
+                >
+                    📄 ORCiD
+
+                <a 
+                    href="https://www.researchgate.net/profile/Elizabeth-Boudaher"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="link-button"
+                >
+                    🔗 ResearchGate
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- PERSONAL SUMMARY -->
+        <section class="summary">
+
+            <h2>About Me</h2>
+
+            <p>
+                PhD candidate in Medical & Health Science, researching Clostridioides difficile within dairy systems under a One Health framework, with a focus on epidemiology. My research explores environmental reservoirs and potential transmission pathways, with particular focus on the role of dairy calves within the broader farm ecosystem.
+            </p>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
