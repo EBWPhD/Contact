@@ -22,12 +22,26 @@
         }
 
         .container {
+            position: relative;
             max-width: 1300px;
             margin: 60px auto;
             padding: 40px;
             background: white;
             border-radius: 18px;
             box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        /* ECU LOGO */
+        .university-logo {
+            position: absolute;
+            top: 30px;
+            right: 40px;
+        }
+
+        .university-logo img {
+            width: 90px;
+            height: auto;
+            display: block;
         }
 
         /* Main two-column layout */
@@ -139,25 +153,49 @@
                 padding: 25px;
             }
 
+            .university-logo {
+                position: static;
+                display: flex;
+                justify-content: center;
+                margin-bottom: 25px;
+            }
+
+            .university-logo img {
+                width: 75px;
+            }
+
             .top-section {
                 grid-template-columns: 1fr;
                 gap: 25px;
             }
 
+            .profile {
+                width: 100%;
+            }
+
             .profile h1 {
                 font-size: 30px;
                 white-space: normal;
+                text-align: center;
+            }
+
+            .title {
+                text-align: center;
             }
 
             .profile-photo {
                 width: 100%;
                 max-width: 260px;
+                margin-left: auto;
+                margin-right: auto;
             }
 
             .profile-content {
                 padding-top: 0;
                 width: 100%;
                 max-width: 260px;
+                margin-left: auto;
+                margin-right: auto;
             }
 
             .summary {
@@ -187,6 +225,15 @@
 <body>
 
     <main class="container">
+
+        <!-- ECU LOGO -->
+        <div class="university-logo">
+            <img
+                src="ECULogo.png"
+                alt="Edith Cowan University"
+            >
+        </div>
+
 
         <section class="top-section">
 
