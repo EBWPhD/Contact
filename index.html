@@ -34,7 +34,7 @@
         .top-section {
             display: grid;
             grid-template-columns: 1.1fr 1.3fr;
-            gap: 50px;
+            gap: 35px;
             align-items: start;
         }
 
@@ -101,33 +101,33 @@
             transform: translateY(-2px);
         }
 
-        /* ICONS - sized approximately to the text height */
+        /* ICONS - proportional to the link text */
         .icon {
-            width: 1em;
-            height: 1em;
+            width: 1.15em;
+            height: 1.15em;
             fill: currentColor;
             flex-shrink: 0;
             margin-right: 8px;
         }
 
         .email-icon {
-            width: 1em;
-            height: 1em;
+            width: 1.15em;
+            height: 1.15em;
         }
 
         .linkedin-icon {
-            width: 0.95em;
-            height: 0.95em;
+            width: 1.1em;
+            height: 1.1em;
         }
 
         .researchgate-icon {
-            width: 1em;
-            height: 1em;
+            width: 1.15em;
+            height: 1.15em;
         }
 
         .orcid-icon {
-            width: 1em;
-            height: 1em;
+            width: 1.15em;
+            height: 1.15em;
         }
 
         /* MOBILE */
@@ -149,23 +149,34 @@
             }
 
             .profile-photo {
+                width: 100%;
                 max-width: 260px;
             }
 
             .profile-content {
                 padding-top: 0;
+                width: 100%;
+                max-width: 260px;
             }
 
             .summary {
                 margin-bottom: 25px;
+                width: 100%;
             }
 
             .summary p {
                 font-size: 15px;
+                line-height: 1.7;
+                margin: 0;
+            }
+
+            .links {
+                width: 100%;
             }
 
             .link-button {
                 font-size: 15px;
+                width: 100%;
             }
         }
     </style>
