@@ -23,7 +23,7 @@
 
         .container {
             position: relative;
-            max-width: 1300px;
+            max-width: 1050px;
             margin: 60px auto;
             padding: 40px 40px 25px 40px;
             background: white;
@@ -45,11 +45,11 @@
         }
 
         /* MAIN TWO-COLUMN LAYOUT */
-     .top-section {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    gap: 20px;
-    align-items: start;
+        .top-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10ch;
+            align-items: start;
         }
 
         /* LEFT SIDE */
@@ -146,12 +146,12 @@
             height: 1.3em;
         }
 
-        /* MOBILE */
-        @media (max-width: 650px) {
+        /* MOBILE / NARROW SCREENS */
+        @media (max-width: 800px) {
 
             .container {
-                margin: 20px;
-                padding: 25px;
+                margin: 30px 20px;
+                padding: 30px;
             }
 
             .university-logo {
